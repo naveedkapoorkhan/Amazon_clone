@@ -291,6 +291,11 @@ body{
 
 
 }
+.second-1 div span{
+    padding:5px;
+    cursor:pointer;
+    
+}
 .second li{
     padding:5px 10px;
     font-size:15px;
@@ -309,3 +314,22 @@ body{
 
 }
 
+.second-2{
+    display:flex;
+    flex:0.74;
+    justify-content:flex-start;
+}
+.second-3{
+    flex:0.2;
+    display:flex;
+    justify-content:flex-end;
+    margin-right:20px;
+    overflow:hidden;
+}
+.second-3 div span{
+    padding:5px 10px;
+    cursor:pointer;
+    border:1px solid transparent;
+    border-radius:3px;
+
+}
