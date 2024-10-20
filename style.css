@@ -141,3 +141,18 @@ body{
     border-radius: 3px;
 }
 */
+.lang i{
+    padding:0;
+    margin:0;
+    color:gray;
+
+}
+.lang{
+    padding:5px;
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+    border:1px solid transparent;
+    border-radius:3px;
+
+}
