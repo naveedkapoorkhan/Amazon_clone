@@ -279,3 +279,33 @@ body{
 .second span{
     font-size:15px;
 }
+
+.second-1 div{
+    font-size:20px;
+    cursor:pointer;
+    border:1px solid transparent;
+    border-radius:1px;
+     display:flex;
+    align-items:center;
+    padding-left:5px;
+
+
+}
+.second li{
+    padding:5px 10px;
+    font-size:15px;
+    margin:7px 0;
+    cursor:pointer;
+    border:1px solid transparent;
+    border-radius:3px;
+}
+
+
+.second-1{
+    flex:0.06;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
