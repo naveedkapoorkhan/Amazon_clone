@@ -46,6 +46,10 @@ body{
     margin-right:10px;
     justify-content:space-between;
 }
+.logo i{
+    margin-top:19px;
+    font-size:15px;
+}
 .map {
     border:1px solid transparent;
     border-radius:3px;
@@ -182,7 +186,75 @@ body{
     display:inline-block;
     width:100%;
     font-weight:bold;
+}
+.flex .ac span{
+    
+    font-size: 15px;
+    font-weight:bold;
+    margin-right:5px;
+
+}
+.fa-shopping-cart{
+    font-size:30px;
+
+}
+.ca{
+    font-size:14px;
+    font-weight:bold;
+}
+.sign i{
+    color:grey;
+}
+.cart{
+    align-items:flex-end;
+    position:relative;
+    padding:5px 10px;
+    cursor:pointer;
+    border:1px solid transparent;
+    border-radius:3px;}
+    .cart i{
+        color:white;
+    }
+
+.cart p{
+    position:absolute;
+    font-weight:bolder;
+    color:#131a22;
+    top:7px;
+    left:23px;
+
+}
+.cart:hover{
+    border:1px solid white;
+    border-radius:3px;
+
+}
+.logo  img:hover{
+    border:1px solid white;
+    border-radius:3px;
 
 
+}
+.map:hover{
+     border:1px solid white;
+    border-radius:3px;
 
+
+}
+.lang:hover{
+     border:1px solid white;
+    border-radius:3px;
+
+}
+.sign:hover{
+     border:1px solid white;
+    border-radius:3px;
+
+}
+.input .fa-search:hover{
+    background-color:#fdae46;
+}
+.input div:hover{
+    background-color:rgb(204,202,202);
+    color:black;
 }
