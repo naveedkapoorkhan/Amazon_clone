@@ -326,10 +326,22 @@ body{
     margin-right:20px;
     overflow:hidden;
 }
-.second-3 div span{
+.second-3 span{
     padding:5px 10px;
     cursor:pointer;
     border:1px solid transparent;
     border-radius:3px;
 
+}
+
+.second-1 div:hover{
+    border:1px solid white;
+    
+}
+.second-2 li:hover{
+     border:1px solid white;    
+}
+
+.second-3 span:hover{
+     border:1px solid white;
 }
