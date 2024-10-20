@@ -165,3 +165,24 @@ body{
     cursor:pointer;
 
 }
+.sign{
+    display:flex;
+    flex-direction:column;
+    padding:3px 6px;
+    cursor:pointer;
+    border:1px solid transparent;
+    border-radius:1px;
+
+}
+.sign span:first-child{
+    font-weight:400;
+    font-size:13px;
+}
+.sign span{
+    display:inline-block;
+    width:100%;
+    font-weight:bold;
+
+
+
+}
