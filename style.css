@@ -156,3 +156,12 @@ body{
     border-radius:3px;
 
 }
+.right img{
+    width:30px;
+    height:30px;
+    padding:4px;
+    margin:0;
+    padding-top:10px;
+    cursor:pointer;
+
+}
