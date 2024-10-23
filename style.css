@@ -435,10 +435,12 @@ body{
         
 }
 .product-comp .box{
+
     width:315px;
     height:400px;
     background-color:white;
     margin-bottom:20px;
+    
 }
 .box h3{
     margin-top:20px;
@@ -459,6 +461,7 @@ body{
 .box-a{
     overflow:hidden;
     background-color:white;
+    margin-left:17px;
 }
 .box div img{
     
