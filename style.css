@@ -529,6 +529,7 @@ body{
 
 .product-slide::-webkit-scrollbar-thumb {
     cursor:pointer;
+    background-color: gray;
     border-radius: 10px; /* Rounded corners for scrollbar thumb */
     
 }
