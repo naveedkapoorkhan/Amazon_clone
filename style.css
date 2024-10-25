@@ -577,6 +577,11 @@ body{
 }
 
 
-
+.box.box-c img{
+    margin:0;
+    width:275px;
+    cursor:pointer;
+    height:280px;
+}
 
 
