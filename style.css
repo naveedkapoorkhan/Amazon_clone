@@ -583,5 +583,74 @@ body{
     cursor:pointer;
     height:280px;
 }
+/*footer css stsrt here*/
+.footer{
+    width:100%;
+    height:400px;
+    transition:all 0.2s;
+}
+.back-top{
+    text-align:center;
+    height:50px;
+    background-color:#37475a;
+    padding:16px;
+}
 
+.back-top span{
+    color:white;
+    font-weight:bold;
+}
+
+.back-top:hover{
+    background-color:#4d627c;
+}
+.detail{
+    background-color:#232f3e;
+    height:350px;
+}
+.table{
+    margin:0 150px;
+    height:100%;
+    display:flex;
+    justify-content:space-around;
+    padding-top:50px;
+
+}
+
+.table div{
+    width:230px;
+    
+}
+
+.t-head{
+    font-size:16px;
+    color:white;
+    font-weight:bold;
+
+}
+
+.table li{
+    color:rgb(223,221,221);
+    padding-top:10px;
+    font-weight:lighter;
+    font-size:14px;
+    list-style:none;
+}
+.copy{
+    background-color:#232f3e;
+    height:90px;
+    padding:40px;
+    text-align:center;
+}
+
+.copy span{
+    color:red;
+    font-size:19px;
+}
+
+.line{
+    height:0.5s;
+    width:100%;
+    background-color:rgb(172,172,172);
+}
 
