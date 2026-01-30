@@ -130,3 +130,16 @@ function (event) {
 }
 );
 
+////////
+const sidebar = document.getElementById("sidebar");
+const closeBtn = document.getElementById("closeBtn");
+
+// Open sidebar (if you have a hamburger menu)
+function openSidebar() {
+    sidebar.classList.add("active");
+}
+
+// Close sidebar when cross is clicked
+closeBtn.addEventListener("click", () => {
+    sidebar.classList.remove("active");
+});
